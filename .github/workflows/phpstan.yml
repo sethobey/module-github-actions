@@ -1,4 +1,4 @@
-name: PhpCS
+name: PhpStan
 on: [push, pull_request]
 jobs:
   phpcs:
