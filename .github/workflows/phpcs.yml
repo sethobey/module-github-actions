@@ -1,8 +1,8 @@
-name: Magento Coding Standard
+name: PhpCS
 on: [push, pull_request]
 jobs:
-  static:
-    name: Static Code Analysis
+  phpcs:
+    name: PHP Code Sniffer
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
